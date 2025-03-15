@@ -14,7 +14,7 @@
 
 2. [懒猫微服开发简明教程](https://czyt.tech/post/simple-guide-for-developing-for-lazycat-nas/)
 
-# 开发者
+# 社区开发者
 
 1. Glzjin [GitHub](https://github.com/glzjinhttps://github.com/glzjin) [博客](https://www.zhaoj.in/)
 
@@ -22,11 +22,15 @@
 
 3. mxuexxmy [GitHub](https://github.com/mxuexxmy) [博客](https://www.infoq.cn/u/mxuexxmy/publish)
 
+# 快速移植工具
+
+1. [lzc-dtl](https://github.com/glzjin/lzc-dtl)
+
 # 应用仓库
 
 1. [懒猫微服官方移植应用仓库](https://gitee.com/lazycatcloud/appdb)
 
-2. [懒猫微服相关app应用贡献（非官方）]([my cat · GitHub](https://github.com/lazycat-contrib))
+2. [懒猫微服相关app应用贡献（非官方）](https://github.com/lazycat-contrib)
 
 
 
