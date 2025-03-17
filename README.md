@@ -148,6 +148,8 @@ TODO
 
 4. [折腾无上限，快乐无极限 - 我的懒猫微服记](https://mp.weixin.qq.com/s/Sp6Xme0ulNFgPtXstLnANg)
 
+5. [开箱测评 AI 服务器：懒猫微服 LC - 02](https://mp.weixin.qq.com/s/_s2zz1axhUfBeXXc0UqlxQ)
+
 # 其他
 
 [懒猫微服的前世今生](https://manateelazycat.github.io/2024/08/20/why-microserver/)
