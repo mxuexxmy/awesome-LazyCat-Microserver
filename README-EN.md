@@ -144,6 +144,8 @@ TODO
 
 4. [Unlimited Tinkering, Unlimited Joy - My LazyCat Microserver Journey](https://mp.weixin.qq.com/s/Sp6Xme0ulNFgPtXstLnANg)
 
+5. [Unboxing and Review of AI Server: LazyCat Microserver LC - 02](https://mp.weixin.qq.com/s/_s2zz1axhUfBeXXc0UqlxQ)
+
 # Others
 
 [The Past and Present of LazyCat Microserver](https://manateelazycat.github.io/2024/08/20/why-microserver/) 
