@@ -1,5 +1,7 @@
 # awesome-LazyCat-Microserver
 
+[English](./README-EN.md) | [中文](./README.md)
+
 [懒猫微服](https://lazycat.cloud/)是一个微型家庭服务器，具备 NAS 功能，定位是高端私有云。
 
 * 拥有超强算力
@@ -26,12 +28,14 @@
 
 1. [lzc-dtl](https://github.com/glzjin/lzc-dtl)
 
+# 其他开发工具
+1. [懒猫微服UID模拟器](https://github.com/glzjin/lzc-uid-impersonation)
+
 # 应用仓库
 
 1. [懒猫微服官方移植应用仓库](https://gitee.com/lazycatcloud/appdb)
 
 2. [懒猫微服相关app应用贡献（非官方）](https://github.com/lazycat-contrib)
-
 
 
 # 开发者模式
@@ -137,7 +141,6 @@ TODO
 2. [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 
-
 # 用户使用体验
 
 1. [懒猫微服：小巧身材，大大满足——从颜值到功能的全方位体验](https://www.zhaoj.in/read-8958.html)
@@ -150,6 +153,17 @@ TODO
 
 5. [开箱测评 AI 服务器：懒猫微服 LC - 02](https://mp.weixin.qq.com/s/_s2zz1axhUfBeXXc0UqlxQ)
 
-# 其他
+6. [这只懒猫有点毒1](https://lorddoomed.notion.site/1-16000d63a5ed809db153dcec0abfff7f)
 
+7. [这只懒猫有点毒2](https://lorddoomed.notion.site/2-16000d63a5ed80eab00fceccb165ba3d)
+
+8. [这只懒猫有点毒3](https://lorddoomed.notion.site/3-16000d63a5ed8013998fde1f1499cf2c)
+
+9. [家庭黑科技！超越NAS的神器｜懒猫微服](https://www.xiaohongshu.com/explore/679841ec000000002900d24e?note_flow_source=wechat&xsec_token=CBbXKvDur-yvMCWTsfO2JPm6PUm2S-qT7DhEwfhnVyq5g=)
+
+10. [我的第一台家庭服务器-懒猫微服体验报告](https://be1yu.notion.site/150c78753c2f80469051dc02dc4ffcd9)
+
+11. [喜欢自娱自乐的我，找到了新的玩意 -- 懒猫微服](https://mp.weixin.qq.com/s/AsmRqfZEUrUOP0DrzXq7Gg)
+# 其他
 [懒猫微服的前世今生](https://manateelazycat.github.io/2024/08/20/why-microserver/)
+> 懒猫微服老板介绍懒猫微服的由来

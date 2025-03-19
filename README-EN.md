@@ -1,5 +1,7 @@
 # awesome-LazyCat-Microserver
 
+[English](./README-EN.md) | [中文](./README.md)
+
 [LazyCat Microserver](https://lazycat.cloud/) is a micro home server with NAS functionality, positioned as a high-end private cloud solution.
 
 * Powerful computing capabilities
@@ -145,6 +147,18 @@ TODO
 4. [Unlimited Tinkering, Unlimited Joy - My LazyCat Microserver Journey](https://mp.weixin.qq.com/s/Sp6Xme0ulNFgPtXstLnANg)
 
 5. [Unboxing and Review of AI Server: LazyCat Microserver LC - 02](https://mp.weixin.qq.com/s/_s2zz1axhUfBeXXc0UqlxQ)
+
+6. [This LazyCat is a Bit Toxic 1](https://lorddoomed.notion.site/1-16000d63a5ed809db153dcec0abfff7f)
+
+7. [This LazyCat is a Bit Toxic 2](https://lorddoomed.notion.site/2-16000d63a5ed80eab00fceccb165ba3d)
+
+8. [This LazyCat is a Bit Toxic 3](https://lorddoomed.notion.site/3-16000d63a5ed8013998fde1f1499cf2c)
+
+9. [Family Black Tech! Beyond NAS - LazyCat Microserver](https://www.xiaohongshu.com/explore/679841ec000000002900d24e?note_flow_source=wechat&xsec_token=CBbXKvDur-yvMCWTsfO2JPm6PUm2S-qT7DhEwfhnVyq5g=)
+
+10. [My First Home Server - LazyCat Microserver Experience Report](https://be1yu.notion.site/150c78753c2f80469051dc02dc4ffcd9)
+
+11. [I Found Something New for Self-Entertainment -- LazyCat Microserver](https://mp.weixin.qq.com/s/AsmRqfZEUrUOP0DrzXq7Gg)
 
 # Others
 
