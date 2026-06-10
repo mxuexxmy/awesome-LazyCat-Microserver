@@ -2,13 +2,59 @@
 
 [English](./README-EN.md) | [中文](./README.md)
 
-[懒猫微服](https://lazycat.cloud/)是一个微型家庭服务器，具备 NAS 功能，定位是高端私有云。
+[懒猫微服](https://lazycat.cloud/)是新一代家庭私有云与 AI 数据中心，集 NAS、应用商店、内网穿透与 AI 算力于一体，定位高端私有云。
 
-* 拥有超强算力
+* 新款微服：7 盘位全固态，高性能标压处理器，最高支持 96TB 存储
 
-* 超多应用一键安装使用
+* [懒猫 AI 算力舱 X3](https://lazycat.cloud/ai-pod)：275T 算力、64GB 显存，支持 70B ~ 671B 大模型，兼容 NVIDIA CUDA 生态
 
-* 自带内网穿透、随处访问 、不折腾
+* [懒猫微服操作系统](https://lazycat.cloud/)：基于 Debian 的三层架构，稳定安全
+
+* [懒猫应用商店](https://lazycat.cloud/appstore/)：超 3000 款应用一键安装
+
+* [懒猫 AI 浏览器](https://lazycat.cloud/)：基于 Chromium，支持 AI 插件，手机端可安装 Chrome 扩展
+
+* 自带内网穿透、随处访问、不折腾
+
+# 官方资源/社区
+
+1. [懒猫微服官网](https://lazycat.cloud/)
+
+2. [懒猫应用商店](https://lazycat.cloud/appstore/)
+
+3. [懒猫微服开发者手册](https://developer.lazycat.cloud/)
+
+4. [懒猫微服社区论坛](https://bbs.lazycat.cloud/)
+
+5. [懒猫微服开发者文档仓库](https://gitee.com/lazycatcloud/lzc-developer-doc)
+
+6. [懒猫微服开发者手册（英文）](https://developer.lazycat.cloud/en/)
+
+7. [创始人博客](https://manateelazycat.github.io/)
+
+# 社区教程
+
+1. [懒猫微服专栏](https://lazycat-docs.netlify.app/) — 80+ 篇实战文章，涵盖入门、进阶、开发与容器知识
+
+2. [懒猫微服 — 一款独特的 NAS，使用体验分享（少数派）](https://sspai.com/post/103942)
+
+# 懒猫 AI 算力舱
+
+1. [懒猫 AI 算力舱产品页](https://lazycat.cloud/ai-pod)
+
+2. [算力舱开发者手册](https://developer.lazycat.cloud/aipod/)
+
+3. [世界上第一台私人 AI 超算发布啦！](https://manateelazycat.github.io/2025/09/20/microserver-and-ai-pod/)
+
+# LightOS
+
+LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封装互补：LPK 适合封装独立应用能力（前端、后端、路由、应用级数据），LightOS 更适合需要长期管理完整运行环境的场景。
+
+1. [LightOS 场景说明 | 开发者手册](https://developer.lazycat.cloud/advanced-lightos.html)
+
+2. [LightOS 入口 | 应用商店](https://appstore.lazycat.cloud/#/shop/detail/cloud.lazycat.lightos.entry)
+
+3. [LightOS 使用指南 | Playground](https://playground.lazycat.cloud/#/guideline/1537)
 
 # 开发
 
@@ -16,9 +62,29 @@
 
 2. [懒猫微服开发简明教程](https://czyt.tech/post/simple-guide-for-developing-for-lazycat-nas/)
 
+3. [@lazycatcloud/lzc-cli](https://www.npmjs.com/package/@lazycatcloud/lzc-cli) — 官方 CLI，用于创建、构建、部署与发布 LPK 应用
+
+4. [开发者环境搭建](https://developer.lazycat.cloud/getting-started/env-setup.html)
+
+5. [Hello World](https://developer.lazycat.cloud/hello-world.html)
+
+6. [lzc-build.yml 规范文档](https://developer.lazycat.cloud/spec/build.html)
+
+7. [LPK 工作原理](https://developer.lazycat.cloud/getting-started/lpk-how-it-works.html)
+
+8. [算力舱手册](https://developer.lazycat.cloud/aipod/)
+
+9. [@lazycatcloud/sdk](https://www.npmjs.com/package/@lazycatcloud/sdk) — 官方 SDK，用于与微服系统状态交互
+
+10. [应用商店发布指南](https://developer.lazycat.cloud/store-submission-guide.html)
+
+11. [AI 应用打包规范](https://developer.lazycat.cloud/aipod/package/spec.html)
+
+12. [LightOS 场景说明](https://developer.lazycat.cloud/advanced-lightos.html) — 系统化运行环境，与 LPK 互补
+
 # 社区开发者
 
-1. Glzjin [GitHub](https://github.com/glzjinhttps://github.com/glzjin) [博客](https://www.zhaoj.in/)
+1. Glzjin [GitHub](https://github.com/glzjin) [博客](https://www.zhaoj.in/)
 
 2. czyt [GitHub](https://github.com/czyt) [博客](https://czyt.tech/)
 
@@ -29,14 +95,18 @@
 1. [lzc-dtl](https://github.com/glzjin/lzc-dtl)
 
 # 其他开发工具
+
 1. [懒猫微服UID模拟器](https://github.com/glzjin/lzc-uid-impersonation)
+
+2. [lazycat-mcp](https://github.com/lazycat-contrib/lazycat-mcp) — 连接大模型的 MCP 服务
+
+3. [apps-scheduler](https://github.com/lazycat-contrib/apps-scheduler) — 应用定时调度工具
 
 # 应用仓库
 
 1. [懒猫微服官方移植应用仓库](https://gitee.com/lazycatcloud/appdb)
 
 2. [懒猫微服相关app应用贡献（非官方）](https://github.com/lazycat-contrib)
-
 
 # 开发者模式
 
@@ -47,6 +117,8 @@
 3. [PVE](https://appstore.lazycat.cloud/#/shop/detail/in.zhaoj.webvirtcloud)
 
 4. [lzcapp](https://developer.lazycat.cloud/develop-mode.html)
+
+5. [LightOS | 懒猫微服开发者手册](https://developer.lazycat.cloud/advanced-lightos.html)
 
 # 推荐应用
 
@@ -104,35 +176,123 @@
 
 ## 影音娱乐
 
-TODO
+1. [Jellyfin](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.jellyfin)
+
+开源家庭影音中心，支持转码、多设备远程观看与 4K 播放。
+
+2. [Emby](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.emby)
+
+功能丰富的媒体服务器，适合搭建家庭影院库。
+
+3. [Navidrome](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.navidrome)
+
+轻量级音乐服务器，支持 Subsonic API 与多平台客户端流媒体播放。
+
+4. [MoviePilot](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.moviepilot)
+
+影视自动化管理工具，支持订阅、搜索与媒体库整理。
+
+5. [qBittorrent Enhanced](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.qbittorrentee)
+
+增强版 BT/PT 下载客户端，适合影视资源采集。
+
+6. [Stremio](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.stremio)
+
+跨平台流媒体聚合播放器，支持插件扩展。
 
 ## 效率工具
 
-TODO
+1. [Vaultwarden](https://lazycat.cloud/appstore/#/shop/detail/community.lazycat.app.vaultwarden)
+
+自托管密码管理器，兼容 Bitwarden 客户端，数据完全私有。
+
+2. [Syncthing](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.syncthing)
+
+去中心化文件同步工具，支持多设备实时同步。
+
+3. [Tailscale](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.tailscale)
+
+基于 WireGuard 的虚拟组网工具，轻松实现设备互联。
+
+4. [Memos](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.memos)
+
+轻量级备忘录与知识记录工具，支持标签与分享。
+
+5. [EZ Bookkeeping](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.ezbookkeeping)
+
+简洁的个人记账应用，适合日常收支管理。
 
 ## 生活
 
-TODO
+1. [Home Assistant](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.homeassistant)
+
+开源智能家居平台，支持数千种设备接入与自动化场景。
+
+2. [Immich](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.immich)
+
+高性能照片备份与管理工具，支持 AI 人脸识别与移动端自动备份。
+
+3. [Lucky](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.lucky)
+
+软硬路由公网神器，支持端口转发、DDNS 与内网穿透。
 
 ## 图形设计
 
-TODO
+1. [Draw.io](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.drawio)
+
+在线流程图与架构图绘制工具，支持多种图表类型。
+
+2. [Excalidraw](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.excalidraw)
+
+手绘风格白板工具，适合快速草图与协作绘图。
 
 ## 阅读学习
 
-TODO
+1. [Calibre](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.calibre)
+
+强大的电子书管理与阅读工具，支持格式转换与书库整理。
+
+2. [思源笔记](https://lazycat.cloud/appstore/#/shop/detail/community.lazycat.app.siyuan-note)
+
+本地优先的块级笔记应用，支持双向链接与多端同步。
 
 ## 游戏
 
-TODO
+1. [Minecraft 服务器](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.minecraftserver)
+
+一键部署 Minecraft 游戏服务器，支持好友联机。
 
 ## 开发工具
 
-TODO
+1. [Coder](https://lazycat.cloud/appstore/#/shop/detail/community.lazycat.app.coder)
+
+基于浏览器的远程开发环境，代码直接保存在微服上。
+
+2. [Forgejo](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.forgejo)
+
+轻量级 Git 代码托管平台，Forgejo 是 Gitea 的社区分支。
+
+3. [GitLab](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.gitlab)
+
+功能完整的 DevOps 平台，支持 CI/CD、代码审查与项目管理。
 
 ## 其他
 
-TODO
+1. [AList](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.alist)
+
+多网盘聚合挂载工具，支持阿里云盘、百度网盘等主流网盘。
+
+2. [Jellyseerr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.jellyseerr)
+
+影视请求管理工具，与 Jellyfin/Plex 配合使用。
+
+3. [Sonarr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.sonarr)
+
+电视剧自动下载与媒体库管理工具。
+
+4. [Radarr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.radarr)
+
+电影自动下载与媒体库管理工具。
 
 # 自托管资源
 
@@ -140,6 +300,7 @@ TODO
 
 2. [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
+3. [懒猫微服专栏](https://lazycat-docs.netlify.app/)
 
 # 用户使用体验
 
@@ -164,6 +325,13 @@ TODO
 10. [我的第一台家庭服务器-懒猫微服体验报告](https://be1yu.notion.site/150c78753c2f80469051dc02dc4ffcd9)
 
 11. [喜欢自娱自乐的我，找到了新的玩意 -- 懒猫微服](https://mp.weixin.qq.com/s/AsmRqfZEUrUOP0DrzXq7Gg)
+
+12. [世界上第一台私人 AI 超算发布啦！](https://manateelazycat.github.io/2025/09/20/microserver-and-ai-pod/)
+
+13. [懒猫微服对技术用户有什么用？](https://manateelazycat.github.io/2025/05/03/microserver-for-developer/)
+
 # 其他
+
 [懒猫微服的前世今生](https://manateelazycat.github.io/2024/08/20/why-microserver/)
+
 > 懒猫微服老板介绍懒猫微服的由来

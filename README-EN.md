@@ -2,23 +2,89 @@
 
 [English](./README-EN.md) | [中文](./README.md)
 
-[LazyCat Microserver](https://lazycat.cloud/) is a micro home server with NAS functionality, positioned as a high-end private cloud solution.
+[LazyCat Microserver](https://lazycat.cloud/) is a next-generation home private cloud and AI data center, combining NAS, an app store, intranet penetration, and AI compute in one platform, positioned as a high-end private cloud solution.
 
-* Powerful computing capabilities
+* New Microserver: 7-bay all-SSD, high-performance standard-voltage CPU, up to 96TB storage
 
-* One-click installation for numerous applications
+* [LazyCat AI Pod X3](https://lazycat.cloud/ai-pod): 275T compute, 64GB VRAM, supports 70B ~ 671B large models, compatible with the NVIDIA CUDA ecosystem
+
+* [LazyCat Microserver OS](https://lazycat.cloud/): Debian-based three-layer architecture, stable and secure
+
+* [LazyCat App Store](https://lazycat.cloud/appstore/): 3000+ apps with one-click installation
+
+* [LazyCat AI Browser](https://lazycat.cloud/): Chromium-based, supports AI plugins, Chrome extensions on mobile
 
 * Built-in intranet penetration, accessible from anywhere, hassle-free
 
+# Official Resources & Community
+
+1. [LazyCat Microserver Official Site](https://lazycat.cloud/)
+
+2. [LazyCat App Store](https://lazycat.cloud/appstore/)
+
+3. [LazyCat Microserver Developer Manual (English)](https://developer.lazycat.cloud/en/)
+
+4. [LazyCat Microserver Community Forum](https://bbs.lazycat.cloud/)
+
+5. [LazyCat Microserver Developer Docs Repository](https://gitee.com/lazycatcloud/lzc-developer-doc)
+
+6. [LazyCat Microserver Developer Manual (Chinese)](https://developer.lazycat.cloud/)
+
+7. [Founder's Blog](https://manateelazycat.github.io/)
+
+# Community Tutorials
+
+1. [LazyCat Microserver Column](https://lazycat-docs.netlify.app/) — 80+ practical articles covering getting started, advanced topics, development, and containers
+
+2. [LazyCat Microserver — A Unique NAS Experience (sspai)](https://sspai.com/post/103942)
+
+# LazyCat AI Pod
+
+1. [LazyCat AI Pod Product Page](https://lazycat.cloud/ai-pod)
+
+2. [AI Pod Developer Manual](https://developer.lazycat.cloud/aipod/)
+
+3. [The World's First Personal AI Supercomputer Is Here!](https://manateelazycat.github.io/2025/09/20/microserver-and-ai-pod/)
+
+# LightOS
+
+LightOS is a lightweight systematic runtime environment on LazyCat Microserver, complementary to LPK app packaging: LPK is for standalone apps (frontend, backend, routing, app-level data), while LightOS is better for long-term management of complete runtime environments.
+
+1. [LightOS Scenarios | Developer Manual](https://developer.lazycat.cloud/en/advanced-lightos.html)
+
+2. [LightOS Entry | App Store](https://appstore.lazycat.cloud/#/shop/detail/cloud.lazycat.lightos.entry)
+
+3. [LightOS Guide | Playground](https://playground.lazycat.cloud/#/guideline/1537)
+
 # Development
 
-1. [LazyCat Microserver Developer Manual](https://developer.lazycat.cloud/)
+1. [LazyCat Microserver Developer Manual (English)](https://developer.lazycat.cloud/en/)
 
 2. [LazyCat Microserver Development Quick Guide](https://czyt.tech/post/simple-guide-for-developing-for-lazycat-nas/)
 
+3. [@lazycatcloud/lzc-cli](https://www.npmjs.com/package/@lazycatcloud/lzc-cli) — Official CLI for creating, building, deploying, and publishing LPK apps
+
+4. [Developer Environment Setup](https://developer.lazycat.cloud/en/getting-started/env-setup.html)
+
+5. [Hello World](https://developer.lazycat.cloud/en/hello-world.html)
+
+6. [lzc-build.yml Specification](https://developer.lazycat.cloud/en/spec/build.html)
+
+7. [How LPK Works](https://developer.lazycat.cloud/en/getting-started/lpk-how-it-works.html)
+
+8. [AI Pod Developer Manual](https://developer.lazycat.cloud/aipod/)
+
+9. [@lazycatcloud/sdk](https://www.npmjs.com/package/@lazycatcloud/sdk) — Official SDK for interacting with microserver system state
+
+10. [App Store Submission Guide](https://developer.lazycat.cloud/en/store-submission-guide.html)
+
+11. [AI App Packaging Specification](https://developer.lazycat.cloud/aipod/package/spec.html)
+
+12. [LightOS Scenarios](https://developer.lazycat.cloud/en/advanced-lightos.html) — Systematic runtime environment, complementary to LPK
+
 # Community Developers
 
-1. Glzjin [GitHub](https://github.com/glzjinhttps://github.com/glzjin) [Blog](https://www.zhaoj.in/)
+1. Glzjin [GitHub](https://github.com/glzjin) [Blog](https://www.zhaoj.in/)
 
 2. czyt [GitHub](https://github.com/czyt) [Blog](https://czyt.tech/)
 
@@ -27,6 +93,14 @@
 # Quick Migration Tools
 
 1. [lzc-dtl](https://github.com/glzjin/lzc-dtl)
+
+# Other Development Tools
+
+1. [LazyCat Microserver UID Impersonator](https://github.com/glzjin/lzc-uid-impersonation)
+
+2. [lazycat-mcp](https://github.com/lazycat-contrib/lazycat-mcp) — MCP service for connecting large language models
+
+3. [apps-scheduler](https://github.com/lazycat-contrib/apps-scheduler) — Application scheduling tool
 
 # Application Repositories
 
@@ -43,6 +117,8 @@
 3. [PVE](https://appstore.lazycat.cloud/#/shop/detail/in.zhaoj.webvirtcloud)
 
 4. [lzcapp](https://developer.lazycat.cloud/develop-mode.html)
+
+5. [LightOS | LCMD Developer Manual](https://developer.lazycat.cloud/en/advanced-lightos.html)
 
 # Recommended Applications
 
@@ -100,41 +176,131 @@ LazyCat Cloud Drive is a file management tool provided by the LazyCat Cloud plat
 
 ## Entertainment
 
-TODO
+1. [Jellyfin](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.jellyfin)
+
+Open-source home media center with transcoding, multi-device remote streaming, and 4K playback.
+
+2. [Emby](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.emby)
+
+Feature-rich media server for building a home theater library.
+
+3. [Navidrome](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.navidrome)
+
+Lightweight music server with Subsonic API support and multi-platform client streaming.
+
+4. [MoviePilot](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.moviepilot)
+
+Media automation tool for subscriptions, search, and library organization.
+
+5. [qBittorrent Enhanced](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.qbittorrentee)
+
+Enhanced BT/PT download client for media collection.
+
+6. [Stremio](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.stremio)
+
+Cross-platform streaming aggregator with plugin support.
 
 ## Productivity Tools
 
-TODO
+1. [Vaultwarden](https://lazycat.cloud/appstore/#/shop/detail/community.lazycat.app.vaultwarden)
+
+Self-hosted password manager compatible with Bitwarden clients, fully private data.
+
+2. [Syncthing](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.syncthing)
+
+Decentralized file sync tool for real-time multi-device synchronization.
+
+3. [Tailscale](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.tailscale)
+
+WireGuard-based virtual networking tool for easy device connectivity.
+
+4. [Memos](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.memos)
+
+Lightweight memo and knowledge recording tool with tags and sharing.
+
+5. [EZ Bookkeeping](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.ezbookkeeping)
+
+Simple personal bookkeeping app for daily income and expense tracking.
 
 ## Lifestyle
 
-TODO
+1. [Home Assistant](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.homeassistant)
+
+Open-source smart home platform supporting thousands of devices and automation.
+
+2. [Immich](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.immich)
+
+High-performance photo backup and management with AI face recognition and mobile auto-backup.
+
+3. [Lucky](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.lucky)
+
+Router and public network tool supporting port forwarding, DDNS, and intranet penetration.
 
 ## Graphic Design
 
-TODO
+1. [Draw.io](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.drawio)
+
+Online flowchart and architecture diagram tool supporting multiple chart types.
+
+2. [Excalidraw](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.excalidraw)
+
+Hand-drawn style whiteboard tool for quick sketches and collaborative drawing.
 
 ## Reading and Learning
 
-TODO
+1. [Calibre](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.calibre)
+
+Powerful e-book management and reading tool with format conversion and library organization.
+
+2. [SiYuan Note](https://lazycat.cloud/appstore/#/shop/detail/community.lazycat.app.siyuan-note)
+
+Local-first block-based note app with bidirectional links and multi-device sync.
 
 ## Games
 
-TODO
+1. [Minecraft Server](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.minecraftserver)
+
+One-click Minecraft game server deployment for multiplayer with friends.
 
 ## Development Tools
 
-TODO
+1. [Coder](https://lazycat.cloud/appstore/#/shop/detail/community.lazycat.app.coder)
+
+Browser-based remote development environment with code stored directly on the microserver.
+
+2. [Forgejo](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.forgejo)
+
+Lightweight Git code hosting platform, a community fork of Gitea.
+
+3. [GitLab](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.gitlab)
+
+Full-featured DevOps platform with CI/CD, code review, and project management.
 
 ## Others
 
-TODO
+1. [AList](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.alist)
+
+Multi-cloud drive aggregation and mounting tool for Aliyun Drive, Baidu Netdisk, and more.
+
+2. [Jellyseerr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.jellyseerr)
+
+Media request management tool for use with Jellyfin/Plex.
+
+3. [Sonarr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.sonarr)
+
+TV series auto-download and media library management tool.
+
+4. [Radarr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.radarr)
+
+Movie auto-download and media library management tool.
 
 # Self-hosted Resources
 
 1. [Laosu's Blog](https://laosu.tech/)
 
 2. [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
+3. [LazyCat Microserver Column](https://lazycat-docs.netlify.app/)
 
 # User Experiences
 
@@ -160,6 +326,12 @@ TODO
 
 11. [I Found Something New for Self-Entertainment -- LazyCat Microserver](https://mp.weixin.qq.com/s/AsmRqfZEUrUOP0DrzXq7Gg)
 
+12. [The World's First Personal AI Supercomputer Is Here!](https://manateelazycat.github.io/2025/09/20/microserver-and-ai-pod/)
+
+13. [What Does LazyCat Microserver Offer Technical Users?](https://manateelazycat.github.io/2025/05/03/microserver-for-developer/)
+
 # Others
 
-[The Past and Present of LazyCat Microserver](https://manateelazycat.github.io/2024/08/20/why-microserver/) 
+[The Past and Present of LazyCat Microserver](https://manateelazycat.github.io/2024/08/20/why-microserver/)
+
+> The founder explains the origin of LazyCat Microserver
