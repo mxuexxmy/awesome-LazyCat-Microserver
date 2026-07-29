@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for the suggestion! Maintainers will sync Chinese and English READMEs.
+        Thanks for the suggestion! Maintainers will sync README.md (English) and README-ZH.md.
   - type: dropdown
     id: category
     attributes:

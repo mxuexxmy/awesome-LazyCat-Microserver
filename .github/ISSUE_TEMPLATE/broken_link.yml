@@ -18,8 +18,8 @@ body:
     attributes:
       label: Which README
       options:
-        - README.md (Chinese)
-        - README-EN.md (English)
+        - README.md (English)
+        - README-ZH.md (Chinese)
         - Both
     validations:
       required: true

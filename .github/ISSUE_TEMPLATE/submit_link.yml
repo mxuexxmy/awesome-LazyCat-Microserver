@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢投稿！请尽量填写完整，方便维护者核对。中英文 README 会由维护者同步更新。
+        感谢投稿！请尽量填写完整，方便维护者核对。英文主 README 与中文 README-ZH 会由维护者同步更新。
   - type: dropdown
     id: category
     attributes:
