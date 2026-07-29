@@ -1,50 +1,129 @@
 # awesome-LazyCat-Microserver
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/mxuexxmy/awesome-LazyCat-Microserver?style=social)](https://github.com/mxuexxmy/awesome-LazyCat-Microserver)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 [English](./README-EN.md) | [中文](./README.md)
 
-[懒猫微服](https://lazycat.cloud/)是新一代家庭私有云与 AI 数据中心，集 NAS、应用商店、内网穿透与 AI 算力于一体，定位高端私有云。
+懒猫微服生态资源导航（非官方社区整理）。欢迎 [Star](https://github.com/mxuexxmy/awesome-LazyCat-Microserver) 与 [PR](./CONTRIBUTING.md)。
 
-* 新款微服：7 盘位全固态，高性能标压处理器，最高支持 96TB 存储
+[懒猫微服](https://lazycat.cloud/)是新一代家庭私有云与 AI 数据中心，集 NAS、应用商店、内网穿透与 AI 算力于一体。
 
-* [懒猫 AI 算力舱 X3](https://lazycat.cloud/ai-pod)：275T 算力、64GB 显存，支持 70B ~ 671B 大模型，兼容 NVIDIA CUDA 生态
+* [懒猫微服 LC-03](https://lazycat.cloud/lcmd)：7 盘位全固态，高性能标压处理器，最高支持 96TB 存储
+
+* [懒猫 AI 算力舱](https://lazycat.cloud/ai-pod)：当前主推 LC-X5（2070T 算力、128GB 统一内存，支持约 284B 大模型）；另有 LC-X3 等型号，详见算力舱手册
+
+* [懒猫摄像头](https://lazycat.cloud/camera)：潮玩外观，私有存储
 
 * [懒猫微服操作系统](https://lazycat.cloud/)：基于 Debian 的三层架构，稳定安全
 
-* [懒猫应用商店](https://lazycat.cloud/appstore/)：超 3000 款应用一键安装
+* [懒猫应用商店](https://appstore.lazycat.cloud/#/shop)：超 3000 款应用一键安装
 
 * [懒猫 AI 浏览器](https://lazycat.cloud/)：基于 Chromium，支持 AI 插件，手机端可安装 Chrome 扩展
 
 * 自带内网穿透、随处访问、不折腾
 
+## 目录
+
+* [官方资源/社区](#官方资源社区)
+* [社区教程](#社区教程)
+* [懒猫 AI 算力舱](#懒猫-ai-算力舱)
+* [Skill / MCP / AI Agent](#skill--mcp--ai-agent)
+* [LightOS](#lightos)
+* [开发](#开发)
+* [社区开发者](#社区开发者)
+* [快速移植工具](#快速移植工具)
+* [其他开发工具](#其他开发工具)
+* [应用仓库](#应用仓库)
+* [开发者模式](#开发者模式)
+* [推荐应用](#推荐应用)
+* [自托管资源](#自托管资源)
+* [用户使用体验](#用户使用体验)
+* [其他](#其他)
+* [贡献](#贡献)
+
 # 官方资源/社区
 
 1. [懒猫微服官网](https://lazycat.cloud/)
 
-2. [懒猫应用商店](https://lazycat.cloud/appstore/)
+2. [懒猫微服产品页](https://lazycat.cloud/lcmd)
 
-3. [懒猫微服开发者手册](https://developer.lazycat.cloud/)
+3. [应用商店](https://appstore.lazycat.cloud/#/shop)
 
-4. [懒猫微服社区论坛](https://bbs.lazycat.cloud/)
+4. [使用攻略 Playground](https://playground.lazycat.cloud/#/home?dynamic=latest)
 
-5. [懒猫微服开发者文档仓库](https://gitee.com/lazycatcloud/lzc-developer-doc)
+5. [懒猫微服开发者手册](https://developer.lazycat.cloud/)
 
-6. [懒猫微服开发者手册（英文）](https://developer.lazycat.cloud/en/)
+6. [开发者中心](https://developer.lazycat.cloud/manage/)
 
-7. [创始人博客](https://manateelazycat.github.io/)
+7. [算力舱手册](https://developer.lazycat.cloud/aipod/)
+
+8. [客户端下载](https://lazycat.cloud/download)
+
+9. [AI 助手](https://lazycat.cloud/chat)
+
+10. [懒猫摄像头](https://lazycat.cloud/camera)
+
+11. [关于懒猫](https://lazycat.cloud/about)
+
+12. [懒猫微服社区论坛](https://bbs.lazycat.cloud/)
+
+13. [系统变更日志](https://developer.lazycat.cloud/changelog.html)
+
+14. [社区激励规则](https://developer.lazycat.cloud/store-rule.html)
+
+15. [开发者购机优惠](https://developer.lazycat.cloud/developer-cyber-discount.html)
+
+16. [入门路线](https://developer.lazycat.cloud/getting-started/)
+
+17. [懒猫微服开发者文档仓库](https://gitee.com/lazycatcloud/lzc-developer-doc)
+
+18. [懒猫微服开发者手册（英文）](https://developer.lazycat.cloud/en/)
+
+19. [创始人博客](https://manateelazycat.github.io/)
 
 # 社区教程
 
 1. [懒猫微服专栏](https://lazycat-docs.netlify.app/) — 80+ 篇实战文章，涵盖入门、进阶、开发与容器知识
 
-2. [懒猫微服 — 一款独特的 NAS，使用体验分享（少数派）](https://sspai.com/post/103942)
+2. [镜湖 · 忘机山人](https://blog.no-claw.com/) — 进阶心得系列（镜像仓库、Docker 引擎等）
+
+3. [懒猫微服 — 一款独特的 NAS，使用体验分享（少数派）](https://sspai.com/post/103942)
+
+4. [如何将已有 Docker Compose 应用移植到懒猫微服](https://lazycat.cloud/playground/guideline/662)
+
+5. [商店 App 如何接管 Docker 引擎](https://blog.no-claw.com/e8e61ce7/)
+
+6. [「懒猫微服」每个独立开发者或者初创团队都值得拥有](https://liaobinbin.com/posts/everyone-needs-lazycat-microserver/)
 
 # 懒猫 AI 算力舱
 
-1. [懒猫 AI 算力舱产品页](https://lazycat.cloud/ai-pod)
+1. [懒猫 AI 算力舱产品页](https://lazycat.cloud/ai-pod) — 当前主推 LC-X5（2070T / 128GB / ~284B）
 
 2. [算力舱开发者手册](https://developer.lazycat.cloud/aipod/)
 
-3. [世界上第一台私人 AI 超算发布啦！](https://manateelazycat.github.io/2025/09/20/microserver-and-ai-pod/)
+3. [LC-X5 配置（lzc-thor）](https://developer.lazycat.cloud/aipod/lc-x5/config.html)
+
+4. [Ollama API](https://developer.lazycat.cloud/aipod/ollama/app-use-ollama-api.html)
+
+5. [vLLM](https://developer.lazycat.cloud/aipod/vllm/)
+
+6. [ComfyUI 常见问题](https://developer.lazycat.cloud/aipod/comfyui/)
+
+7. [世界上第一台私人 AI 超算发布啦！](https://manateelazycat.github.io/2025/09/20/microserver-and-ai-pod/)
+
+# Skill / MCP / AI Agent
+
+1. [Skill / MCP 规范 | 开发者手册](https://developer.lazycat.cloud/resource-skill-mcp.html)
+
+2. [打通网盘右键、MCP、SKILL 攻略](https://lazycat.cloud/playground/guideline/1628)
+
+3. [llama-dash 使用攻略](https://lazycat.cloud/playground/guideline/1580) — 本地 LLM 网关与运维面板
+
+4. [lazycat-mcp](https://github.com/lazycat-contrib/lazycat-mcp) — 连接懒猫硬件与大模型的 MCP 服务
+
+5. [lazycat-skills](https://github.com/whoamihappyhacking/lazycat-skills) — 面向 Cursor / Claude 等的懒猫开发 Agent Skills（`npx skills add whoamihappyhacking/lazycat-skills`）
 
 # LightOS
 
@@ -60,27 +139,35 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 
 1. [懒猫微服开发者手册](https://developer.lazycat.cloud/)
 
-2. [懒猫微服开发简明教程](https://czyt.tech/post/simple-guide-for-developing-for-lazycat-nas/)
+2. [入门路线](https://developer.lazycat.cloud/getting-started/)
 
-3. [@lazycatcloud/lzc-cli](https://www.npmjs.com/package/@lazycatcloud/lzc-cli) — 官方 CLI，用于创建、构建、部署与发布 LPK 应用
+3. [5 分钟完成 Hello World 并多端验证](https://developer.lazycat.cloud/getting-started/hello-world-fast.html)
 
-4. [开发者环境搭建](https://developer.lazycat.cloud/getting-started/env-setup.html)
+4. [懒猫微服开发简明教程](https://czyt.tech/post/simple-guide-for-developing-for-lazycat-nas/)
 
-5. [Hello World](https://developer.lazycat.cloud/hello-world.html)
+5. [@lazycatcloud/lzc-cli](https://www.npmjs.com/package/@lazycatcloud/lzc-cli) — 官方 CLI，用于创建、构建、部署与发布 LPK 应用
 
-6. [lzc-build.yml 规范文档](https://developer.lazycat.cloud/spec/build.html)
+6. [开发者环境搭建](https://developer.lazycat.cloud/getting-started/env-setup.html)
 
-7. [LPK 工作原理](https://developer.lazycat.cloud/getting-started/lpk-how-it-works.html)
+7. [Hello World](https://developer.lazycat.cloud/hello-world.html)
 
-8. [算力舱手册](https://developer.lazycat.cloud/aipod/)
+8. [发布自己的第一个应用](https://developer.lazycat.cloud/publish-app.html)
 
-9. [@lazycatcloud/sdk](https://www.npmjs.com/package/@lazycatcloud/sdk) — 官方 SDK，用于与微服系统状态交互
+9. [lzc-build.yml 规范文档](https://developer.lazycat.cloud/spec/build.html)
 
-10. [应用商店发布指南](https://developer.lazycat.cloud/store-submission-guide.html)
+10. [LPK 工作原理](https://developer.lazycat.cloud/getting-started/lpk-how-it-works.html)
 
-11. [AI 应用打包规范](https://developer.lazycat.cloud/aipod/package/spec.html)
+11. [算力舱手册](https://developer.lazycat.cloud/aipod/)
 
-12. [LightOS 场景说明](https://developer.lazycat.cloud/advanced-lightos.html) — 系统化运行环境，与 LPK 互补
+12. [@lazycatcloud/sdk](https://www.npmjs.com/package/@lazycatcloud/sdk) — 官方 SDK，用于与微服系统状态交互
+
+13. [应用商店发布指南](https://developer.lazycat.cloud/store-submission-guide.html)
+
+14. [AI 应用打包规范](https://developer.lazycat.cloud/aipod/package/spec.html)
+
+15. [LightOS 场景说明](https://developer.lazycat.cloud/advanced-lightos.html) — 系统化运行环境，与 LPK 互补
+
+16. [Skill / MCP 规范](https://developer.lazycat.cloud/resource-skill-mcp.html)
 
 # 社区开发者
 
@@ -89,6 +176,8 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 2. czyt [GitHub](https://github.com/czyt) [博客](https://czyt.tech/)
 
 3. mxuexxmy [GitHub](https://github.com/mxuexxmy) [博客](https://www.infoq.cn/u/mxuexxmy/publish)
+
+4. 忘机山人 [镜湖博客](https://blog.no-claw.com/)
 
 # 快速移植工具
 
@@ -101,6 +190,8 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 2. [lazycat-mcp](https://github.com/lazycat-contrib/lazycat-mcp) — 连接大模型的 MCP 服务
 
 3. [apps-scheduler](https://github.com/lazycat-contrib/apps-scheduler) — 应用定时调度工具
+
+4. [lazycat-skills](https://github.com/whoamihappyhacking/lazycat-skills) — AI 编程助手技能包
 
 # 应用仓库
 
@@ -173,6 +264,20 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 14. [懒猫网盘](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.shell.files)
 
 懒猫网盘是懒猫云平台提供的一款文件管理工具。用户可以将自己的文件上传到云网盘中进行备份和共享，释放本地空间，并可以随时随地通过互联网访问自己的文件。
+
+## AI 应用
+
+1. [懒猫实验 Ollama](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.lzcollama) — 本地大模型推理
+
+2. [llama-dash 使用攻略](https://lazycat.cloud/playground/guideline/1580) — 本地 LLM 网关、API Key 与 Playground
+
+3. [Ollama API（算力舱）](https://developer.lazycat.cloud/aipod/ollama/app-use-ollama-api.html) — 通过算力舱调用 Ollama / OpenAI 兼容接口
+
+4. [vLLM（算力舱）](https://developer.lazycat.cloud/aipod/vllm/) — 高性能推理与分布式推理
+
+5. [ComfyUI（算力舱）](https://developer.lazycat.cloud/aipod/comfyui/) — 文生图等工作流
+
+6. [Skill / MCP 规范](https://developer.lazycat.cloud/resource-skill-mcp.html) — 让 Agent 接入微服技能与工具
 
 ## 影音娱乐
 
@@ -302,6 +407,8 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 
 3. [懒猫微服专栏](https://lazycat-docs.netlify.app/)
 
+4. [镜湖 · 忘机山人](https://blog.no-claw.com/)
+
 # 用户使用体验
 
 1. [懒猫微服：小巧身材，大大满足——从颜值到功能的全方位体验](https://www.zhaoj.in/read-8958.html)
@@ -330,8 +437,18 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 
 13. [懒猫微服对技术用户有什么用？](https://manateelazycat.github.io/2025/05/03/microserver-for-developer/)
 
+14. [LCMD Microserver & AI Pod（英文评测）](https://the-diy-life.com/lcmd-microserver-ai-pod-a-compact-homelab-powerhouse/)
+
+15. [分享新买的设备 -- 懒猫微服（V2EX）](https://www.v2ex.com/t/1111706)
+
+16. [送懒猫微服！极速内网穿透 + LightOS Vibe Coding（V2EX）](https://www.v2ex.com/t/1204968)
+
 # 其他
 
 [懒猫微服的前世今生](https://manateelazycat.github.io/2024/08/20/why-microserver/)
 
 > 懒猫微服老板介绍懒猫微服的由来
+
+# 贡献
+
+欢迎补充链接、修正失效地址，或同步中英文内容。请先阅读 [贡献指南](./CONTRIBUTING.md)。
