@@ -1,0 +1,33 @@
+name: Report broken link
+description: Report a dead or outdated URL in the README
+title: "[Broken] "
+labels: ["broken-link"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping keep links healthy.
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Which README
+      options:
+        - README.md (Chinese)
+        - README-EN.md (English)
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened
+      description: HTTP status, redirect, or replacement URL if you know one
+      placeholder: e.g. 404 Not Found; suggested new URL is ...
+    validations:
+      required: true

@@ -6,7 +6,15 @@
 
 [English](./README-EN.md) | [中文](./README.md)
 
-A curated (unofficial) resource map for the LazyCat Microserver ecosystem. [Star](https://github.com/mxuexxmy/awesome-LazyCat-Microserver) and [PR](./CONTRIBUTING.md) welcome.
+A curated (unofficial) resource map for the LazyCat Microserver ecosystem. [Star](https://github.com/mxuexxmy/awesome-LazyCat-Microserver), [PR](./CONTRIBUTING.md), or [submit a link Issue](https://github.com/mxuexxmy/awesome-LazyCat-Microserver/issues/new/choose) welcome.
+
+## What's New (2026-07)
+
+* Expanded official entry map: Developer Center, Playground guides, downloads, AI assistant, camera, and more
+* Updated AI Pod flagship specs to LC-X5 (2070T / 128GB / ~284B), plus Ollama / vLLM / ComfyUI docs
+* Added Skill / MCP / AI Agent, LightOS, and AI Applications sections
+* Added Jinghu advanced series, The DIY Life English review, lazycat-skills, and more community links
+* Added [CONTRIBUTING.md](./CONTRIBUTING.md), MIT License, and Issue templates for submissions / broken links
 
 [LazyCat Microserver](https://lazycat.cloud/) is a next-generation home private cloud and AI data center, combining NAS, an app store, intranet penetration, and AI compute.
 
@@ -26,6 +34,7 @@ A curated (unofficial) resource map for the LazyCat Microserver ecosystem. [Star
 
 ## Contents
 
+* [What's New (2026-07)](#whats-new-2026-07)
 * [Official Resources & Community](#official-resources--community)
 * [Community Tutorials](#community-tutorials)
 * [LazyCat AI Pod](#lazycat-ai-pod)
@@ -181,7 +190,7 @@ LightOS is a lightweight systematic runtime on LazyCat Microserver, complementar
 
 # Quick Migration Tools
 
-1. [lzc-dtl](https://github.com/glzjin/lzc-dtl)
+1. [lzc-dtl](https://github.com/jn7163/lzc-dtl) — Convert Docker Compose apps to LazyCat format (`npm i -g lzc-dtl`)
 
 # Other Development Tools
 
@@ -207,7 +216,7 @@ LightOS is a lightweight systematic runtime on LazyCat Microserver, complementar
 
 3. [PVE](https://appstore.lazycat.cloud/#/shop/detail/in.zhaoj.webvirtcloud)
 
-4. [lzcapp](https://developer.lazycat.cloud/develop-mode.html)
+4. [Dev Workflow Overview (lzcapp / dev mode)](https://developer.lazycat.cloud/getting-started/dev-workflow.html)
 
 5. [LightOS | Developer Manual](https://developer.lazycat.cloud/en/advanced-lightos.html)
 

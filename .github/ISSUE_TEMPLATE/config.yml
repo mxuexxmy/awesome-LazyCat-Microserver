@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 懒猫微服官方论坛
+    url: https://bbs.lazycat.cloud/
+    about: 产品与使用问题请优先到官方论坛讨论
+  - name: 贡献指南
+    url: https://github.com/mxuexxmy/awesome-LazyCat-Microserver/blob/main/CONTRIBUTING.md
+    about: 提交 PR 前请先阅读贡献说明

@@ -6,7 +6,15 @@
 
 [English](./README-EN.md) | [中文](./README.md)
 
-懒猫微服生态资源导航（非官方社区整理）。欢迎 [Star](https://github.com/mxuexxmy/awesome-LazyCat-Microserver) 与 [PR](./CONTRIBUTING.md)。
+懒猫微服生态资源导航（非官方社区整理）。欢迎 [Star](https://github.com/mxuexxmy/awesome-LazyCat-Microserver)、[PR](./CONTRIBUTING.md) 或 [提交链接 Issue](https://github.com/mxuexxmy/awesome-LazyCat-Microserver/issues/new/choose)。
+
+## 本月新增（2026-07）
+
+* 补全官方入口地图：开发者中心、Playground 攻略、下载、AI 助手、摄像头等
+* 更新算力舱主推规格为 LC-X5（2070T / 128GB / ~284B），并补充 Ollama / vLLM / ComfyUI 文档
+* 新增 Skill / MCP / AI Agent、LightOS、AI 应用等章节
+* 收录镜湖进阶系列、英文评测 The DIY Life、lazycat-skills 等社区资源
+* 增加 [贡献指南](./CONTRIBUTING.md)、MIT License，以及 Issue 投稿 / 失效链接模板
 
 [懒猫微服](https://lazycat.cloud/)是新一代家庭私有云与 AI 数据中心，集 NAS、应用商店、内网穿透与 AI 算力于一体。
 
@@ -26,6 +34,7 @@
 
 ## 目录
 
+* [本月新增（2026-07）](#本月新增2026-07)
 * [官方资源/社区](#官方资源社区)
 * [社区教程](#社区教程)
 * [懒猫 AI 算力舱](#懒猫-ai-算力舱)
@@ -181,7 +190,7 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 
 # 快速移植工具
 
-1. [lzc-dtl](https://github.com/glzjin/lzc-dtl)
+1. [lzc-dtl](https://github.com/jn7163/lzc-dtl) — Docker Compose 转懒猫微服应用（`npm i -g lzc-dtl`）
 
 # 其他开发工具
 
@@ -207,7 +216,7 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 
 3. [PVE](https://appstore.lazycat.cloud/#/shop/detail/in.zhaoj.webvirtcloud)
 
-4. [lzcapp](https://developer.lazycat.cloud/develop-mode.html)
+4. [开发流程总览（lzcapp / 开发态）](https://developer.lazycat.cloud/getting-started/dev-workflow.html)
 
 5. [LightOS | 懒猫微服开发者手册](https://developer.lazycat.cloud/advanced-lightos.html)
 

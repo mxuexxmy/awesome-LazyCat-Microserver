@@ -1,0 +1,61 @@
+name: Submit a link
+description: Suggest a LazyCat-related resource for the list
+title: "[Link] "
+labels: ["link-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Maintainers will sync Chinese and English READMEs.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested section
+      options:
+        - Official Resources & Community
+        - Community Tutorials
+        - LazyCat AI Pod
+        - Skill / MCP / AI Agent
+        - LightOS
+        - Development
+        - Recommended Applications (specify subcategory)
+        - Self-hosted Resources
+        - User Experiences
+        - Others
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: e.g. llama-dash guide
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      placeholder: What it is and who it is for
+    validations:
+      required: true
+  - type: input
+    id: package_id
+    attributes:
+      label: App Store package ID (optional)
+      placeholder: cloud.lazycat.app.xxx
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I opened the URL and it is reachable and LazyCat-related
+          required: true
+        - label: This is not a pure ad/lottery post (or it has lasting technical value)
+          required: true

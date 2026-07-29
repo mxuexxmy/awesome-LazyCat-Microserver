@@ -1,0 +1,65 @@
+name: 提交新链接
+description: 推荐一个值得收录的懒猫微服相关资源
+title: "[链接] "
+labels: ["link-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢投稿！请尽量填写完整，方便维护者核对。中英文 README 会由维护者同步更新。
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议分类
+      description: 选择最接近的章节
+      options:
+        - 官方资源/社区
+        - 社区教程
+        - 懒猫 AI 算力舱
+        - Skill / MCP / AI Agent
+        - LightOS
+        - 开发
+        - 推荐应用（请注明子类）
+        - 自托管资源
+        - 用户使用体验
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: 标题
+      description: 显示在列表里的名称
+      placeholder: 例如：llama-dash 使用攻略
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 链接 URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 一句话简介
+      description: 中文即可；英文可由维护者翻译
+      placeholder: 这是什么、适合谁用
+    validations:
+      required: true
+  - type: input
+    id: package_id
+    attributes:
+      label: 应用商店 Package ID（可选）
+      description: 若是商店应用，尽量提供，例如 cloud.lazycat.app.jellyfin
+      placeholder: cloud.lazycat.app.xxx
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 我已打开链接确认可访问，且内容与懒猫微服生态相关
+          required: true
+        - label: 这不是纯广告/抽奖帖（或其中有长期技术价值）
+          required: true
