@@ -1,6 +1,8 @@
 # Awesome LazyCat Microserver [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Unofficial curated resources for LazyCat Microserver — home private cloud, app store, intranet penetration, and AI compute.
+[<img src="media/lazycat-microserver.webp" width="420" alt="LazyCat Microserver">](https://lazycat.cloud/)
+
+> A home private-cloud appliance with NAS features, an application marketplace, remote-access tooling, and local AI compute.
 
 [English](./README.md) | [中文](./README-ZH.md)
 
@@ -8,25 +10,18 @@ Contributions welcome via [PR](./CONTRIBUTING.md) or [Issues](https://github.com
 
 ## Contents
 
-- [What's New](#whats-new)
 - [Official Resources](#official-resources)
 - [Community Tutorials](#community-tutorials)
 - [AI Pod](#ai-pod)
 - [Skill / MCP / AI Agent](#skill--mcp--ai-agent)
 - [LightOS](#lightos)
 - [Development](#development)
-- [Community Developers](#community-developers)
 - [Tools](#tools)
 - [Application Repositories](#application-repositories)
 - [Developer Modes](#developer-modes)
 - [Recommended Applications](#recommended-applications)
-- [Self-hosted Resources](#self-hosted-resources)
 - [User Experiences](#user-experiences)
 - [Others](#others)
-
-## What's New
-
-- 2026-07: Official entry map, LC-X5 specs, Skill/MCP, LightOS, Jinghu series, The DIY Life review, Issue templates, CONTRIBUTING, CC0 license.
 
 ## Official Resources
 
@@ -99,12 +94,6 @@ LightOS is a systematic runtime complementary to LPK packaging: LPK fits standal
 - [AI App Packaging Spec](https://developer.lazycat.cloud/aipod/package/spec.html) - AI services and browser extensions in LPK.
 - [Dev Workflow Overview](https://developer.lazycat.cloud/getting-started/dev-workflow.html) - Dev vs release build configs.
 
-## Community Developers
-
-- [Glzjin](https://github.com/glzjin) - Tools and blog at [zhaoj.in](https://www.zhaoj.in/).
-- [czyt](https://github.com/czyt) - Development guides at [czyt.tech](https://czyt.tech/).
-- [mxuexxmy](https://github.com/mxuexxmy) - Maintainer of this list.
-
 ## Tools
 
 - [lzc-dtl](https://github.com/jn7163/lzc-dtl) - Convert Docker Compose apps to LazyCat format (`npm i -g lzc-dtl`).
@@ -141,10 +130,6 @@ LightOS is a systematic runtime complementary to LPK packaging: LPK fits standal
 - [Video Player](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.video) - Multi-format media player.
 - [Developer Tools](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.developer.tools) - Official developer tooling app.
 - [Cloud Drive](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.shell.files) - File backup and sharing.
-
-### AI Applications
-
-- Additional AI workflow links are listed under the AI Pod and Skill / MCP / AI Agent sections.
 
 ### Entertainment
 
@@ -189,11 +174,6 @@ LightOS is a systematic runtime complementary to LPK packaging: LPK fits standal
 - [Jellyseerr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.jellyseerr) - Media request management.
 - [Sonarr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.sonarr) - TV library automation.
 - [Radarr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.radarr) - Movie library automation.
-
-## Self-hosted Resources
-
-- [Laosu's Blog](https://laosu.tech/) - Self-hosting notes.
-- [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - General self-hosted software index.
 
 ## User Experiences
 

@@ -2,18 +2,11 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[<img src="media/lazycat-microserver.webp" width="420" alt="懒猫微服">](https://lazycat.cloud/)
+
 [English](./README.md) | [中文](./README-ZH.md)
 
-懒猫微服生态资源导航（非官方社区整理）。欢迎 [Star](https://github.com/mxuexxmy/awesome-lazycat-microserver)、[PR](./CONTRIBUTING.md) 或 [提交链接 Issue](https://github.com/mxuexxmy/awesome-lazycat-microserver/issues/new/choose)。
-
-## 本月新增（2026-07）
-
-* 补全官方入口地图：开发者中心、Playground 攻略、下载、AI 助手、摄像头等
-* 更新算力舱主推规格为 LC-X5（2070T / 128GB / ~284B），并补充 Ollama / vLLM / ComfyUI 文档
-* 新增 Skill / MCP / AI Agent、LightOS、AI 应用等章节
-* 收录镜湖进阶系列、英文评测 The DIY Life、lazycat-skills 等社区资源
-* 增加 [贡献指南](./CONTRIBUTING.md)、CC0 License、Issue 投稿模板；主 README 改为英文以符合 awesome 规范
-* 仓库准备改名为 `awesome-lazycat-microserver`（小写）以符合官方收录要求
+家庭私有云一体机，具备 NAS、应用商店、远程访问与本地 AI 算力能力。欢迎 [Star](https://github.com/mxuexxmy/awesome-lazycat-microserver)、[PR](./CONTRIBUTING.md) 或 [提交链接 Issue](https://github.com/mxuexxmy/awesome-lazycat-microserver/issues/new/choose)。
 
 [懒猫微服](https://lazycat.cloud/)是新一代家庭私有云与 AI 数据中心，集 NAS、应用商店、内网穿透与 AI 算力于一体。
 
@@ -33,20 +26,17 @@
 
 ## 目录
 
-* [本月新增（2026-07）](#本月新增2026-07)
 * [官方资源/社区](#官方资源社区)
 * [社区教程](#社区教程)
 * [懒猫 AI 算力舱](#懒猫-ai-算力舱)
 * [Skill / MCP / AI Agent](#skill--mcp--ai-agent)
 * [LightOS](#lightos)
 * [开发](#开发)
-* [社区开发者](#社区开发者)
 * [快速移植工具](#快速移植工具)
 * [其他开发工具](#其他开发工具)
 * [应用仓库](#应用仓库)
 * [开发者模式](#开发者模式)
 * [推荐应用](#推荐应用)
-* [自托管资源](#自托管资源)
 * [用户使用体验](#用户使用体验)
 * [其他](#其他)
 * [贡献](#贡献)
@@ -176,16 +166,6 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 15. [LightOS 场景说明](https://developer.lazycat.cloud/advanced-lightos.html) — 系统化运行环境，与 LPK 互补
 
 16. [Skill / MCP 规范](https://developer.lazycat.cloud/resource-skill-mcp.html)
-
-# 社区开发者
-
-1. Glzjin [GitHub](https://github.com/glzjin) [博客](https://www.zhaoj.in/)
-
-2. czyt [GitHub](https://github.com/czyt) [博客](https://czyt.tech/)
-
-3. mxuexxmy [GitHub](https://github.com/mxuexxmy) [博客](https://www.infoq.cn/u/mxuexxmy/publish)
-
-4. 忘机山人 [镜湖博客](https://blog.no-claw.com/)
 
 # 快速移植工具
 
@@ -406,16 +386,6 @@ LightOS 是懒猫微服上的轻量级系统化运行环境，与 LPK 应用封�
 4. [Radarr](https://lazycat.cloud/appstore/#/shop/detail/cloud.lazycat.app.radarr)
 
 电影自动下载与媒体库管理工具。
-
-# 自托管资源
-
-1. [老苏的博客](https://laosu.tech/)
-
-2. [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-
-3. [懒猫微服专栏](https://lazycat-docs.netlify.app/)
-
-4. [镜湖 · 忘机山人](https://blog.no-claw.com/)
 
 # 用户使用体验
 
